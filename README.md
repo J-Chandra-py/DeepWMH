@@ -45,6 +45,12 @@ Also, this tool is based on Python 3, Python 2 is deprecated and should no longe
 The fastest way of applying our tool to your research is by <i><b>using our pre-trained model</i></b> directly.
 To use our pre-trained model for inference, please follow the steps below:
 
+### Dockerized Setup
+
+- If you have Docker installed, you can <i><b>run DeepWMH inside a Docker container</i></b> for a faster and easier setup. See **[this](https://github.com/lchdl/DeepWMH/blob/develop/docker/README.md)** for more details.
+
+### Non-Dockerized Setup
+
 1.  Update your Python environment. Then, create a new virtual environment using the following commands:
     ```bash
     pip install -U pip                         # update pip
@@ -198,7 +204,7 @@ To use our pre-trained model for inference, please follow the steps below:
 
 ## Advanced: how to train a model using data of my own? (only for Linux-based systems)
 
-1.  Follow the Steps 1--7 in [Quick start](#quick-start-how-to-use-our-pretrained-model-only-for-linux-based-systems) section. Note that if you want to train a custom model, you <b><i>must</i></b> 
+1.  Follow the **Steps 1-7** in [Quick start](#quick-start-how-to-use-our-pretrained-model-only-for-linux-based-systems) section (**Non-Dockerized Setup**). Note that if you want to train a custom model, you <b><i>must</i></b> 
     download and compile ANTs toolkit, Step 7 in [Quick start](#quick-start-how-to-use-our-pretrained-model-only-for-linux-based-systems) section is no longer optional.
 
 2.  Download and install [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/). Note that you may also need to 
