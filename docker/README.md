@@ -93,4 +93,4 @@ docker exec -it deepwmh /bin/bash
 - Make sure NVIDIA drivers and CUDA are correctly installed on your host machine.
 - Use `install_services.sh` to set up and download required services.
 - The model `.zip` file should be placed in the `docker/` directory before building the image. It will be copied into the container during the build process.
-
+- A `.gitattributes` file is included to enforce LF line endings for all `.sh` scripts, ensuring compatibility across Windows and Unix systems.
